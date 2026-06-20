@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Hero() {
   return (
@@ -26,7 +27,22 @@ duration-300
       </h1>
 
       <h2 className="text-3xl text-blue-300 mt-3">
-B.Tech CSE Student | Data Analytics Enthusiast | AI Learner      </h2>
+  <TypeAnimation
+    sequence={[
+      "Data Analytics Enthusiast",
+      1500,
+      "AI Learner",
+      1500,
+      "Full Stack Developer",
+      1500,
+      "Machine Learning Explorer",
+      1500,
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+</h2>
 
       <p className="mt-4 max-w-xl">
         B.Tech CSE student at Sanketika Vidya Parishad Engineering College with experience in Data Analytics, AWS Cloud, Agentic AI and Full Stack Development.
