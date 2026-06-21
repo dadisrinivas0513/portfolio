@@ -1,134 +1,131 @@
 function Internships() {
+  const internships = [
+    {
+      year: "2025",
+      title: "AWS Cloud Internship",
+      company: "HMIES Solutions",
+      duration: "May 2025 – June 2025",
+      description:
+        "Worked with AWS cloud services including EC2, S3, IAM, cloud storage, deployment concepts and basic cloud architecture."
+    },
+
+    {
+      year: "2026",
+      title: "Agentic AI Internship",
+      company: "DataPro",
+      duration: "May 2026 – June 2026",
+      description:
+        "Built AI agents, prompt engineering workflows, automation systems and LLM-powered applications."
+    },
+
+    {
+      year: "2026",
+      title: "Data Analytics Internship",
+      company: "NAVODITA INFOTECH",
+      duration: "June 2026",
+      description:
+        "Performed customer segmentation, business analytics, dashboard creation and insight generation using data-driven techniques."
+    }
+  ];
+
   return (
-    <section
-      id="internships"
-      className="px-6 py-20"
-    >
+    <section id="internships" className="px-6 py-20">
       <h2 className="text-5xl font-extrabold text-center mb-20">
         Internships
       </h2>
 
-      <div className="relative max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto">
 
-        {/* Vertical Line */}
-        <div className="absolute left-4 top-0 h-full w-1 bg-gradient-to-b from-cyan-400 to-blue-700"></div>
-
-        {/* Internship 1 */}
-        <div className="relative pl-16 mb-16">
-
-          <div className="absolute left-0 top-3 w-8 h-8 rounded-full bg-cyan-400 animate-pulse shadow-lg shadow-cyan-400"></div>
-
+        {internships.map((item, index) => (
           <div
+            key={index}
             className="
-            p-8
-            rounded-3xl
-            bg-white/10
-            backdrop-blur-xl
-            border border-white/20
-            shadow-2xl
-            hover:scale-105
-            hover:border-cyan-400
-            hover:shadow-cyan-500/40
-            transition-all
-            duration-300
+            flex
+            gap-8
+            mb-12
+            items-start
             "
           >
-            <h3 className="text-3xl font-bold text-cyan-300">
-              AWS Internship
-            </h3>
 
-            <p className="mt-2 text-lg">
-              HMIES Solutions
-            </p>
+            {/* Year */}
 
-            <p className="text-gray-300">
-              May 2025 – June 2025
-            </p>
+            <div
+              className="
+              min-w-[90px]
+              text-cyan-400
+              font-bold
+              text-xl
+              pt-3
+              "
+            >
+              {item.year}
+            </div>
 
-            <p className="mt-4 text-gray-300">
-              Worked with AWS cloud services including EC2, S3,
-              IAM and deployment concepts.
-            </p>
+            {/* Line */}
+
+            <div className="flex flex-col items-center">
+
+              <div
+                className="
+                w-5
+                h-5
+                rounded-full
+                bg-cyan-400
+                shadow-lg
+                shadow-cyan-400
+                "
+              ></div>
+
+              {index !== internships.length - 1 && (
+                <div
+                  className="
+                  w-1
+                  h-40
+                  bg-gradient-to-b
+                  from-cyan-400
+                  to-blue-700
+                  "
+                ></div>
+              )}
+            </div>
+
+            {/* Card */}
+
+            <div
+              className="
+              flex-1
+              p-8
+              rounded-3xl
+              bg-white/10
+              backdrop-blur-xl
+              border
+              border-cyan-400/20
+              shadow-xl
+              hover:scale-105
+              hover:border-cyan-400
+              transition-all
+              duration-300
+              "
+            >
+              <h3 className="text-2xl font-bold text-cyan-300">
+                {item.title}
+              </h3>
+
+              <p className="mt-2 text-lg">
+                {item.company}
+              </p>
+
+              <p className="text-gray-400 mt-1">
+                {item.duration}
+              </p>
+
+              <p className="mt-4 text-gray-300 leading-7">
+                {item.description}
+              </p>
+            </div>
+
           </div>
-        </div>
-
-        {/* Internship 2 */}
-        <div className="relative pl-16 mb-16">
-
-          <div className="absolute left-0 top-3 w-8 h-8 rounded-full bg-cyan-400 animate-pulse shadow-lg shadow-cyan-400"></div>
-
-          <div
-            className="
-            p-8
-            rounded-3xl
-            bg-white/10
-            backdrop-blur-xl
-            border border-white/20
-            shadow-2xl
-            hover:scale-105
-            hover:border-cyan-400
-            hover:shadow-cyan-500/40
-            transition-all
-            duration-300
-            "
-          >
-            <h3 className="text-3xl font-bold text-cyan-300">
-              Agentic AI Internship
-            </h3>
-
-            <p className="mt-2 text-lg">
-              DataPro
-            </p>
-
-            <p className="text-gray-300">
-              May 2026 – June 2026
-            </p>
-
-            <p className="mt-4 text-gray-300">
-              Built AI agents, prompt engineering workflows,
-              automation systems and LLM-powered applications.
-            </p>
-          </div>
-        </div>
-
-        {/* Internship 3 */}
-        <div className="relative pl-16">
-
-          <div className="absolute left-0 top-3 w-8 h-8 rounded-full bg-cyan-400 animate-pulse shadow-lg shadow-cyan-400"></div>
-
-          <div
-            className="
-            p-8
-            rounded-3xl
-            bg-white/10
-            backdrop-blur-xl
-            border border-white/20
-            shadow-2xl
-            hover:scale-105
-            hover:border-cyan-400
-            hover:shadow-cyan-500/40
-            transition-all
-            duration-300
-            "
-          >
-            <h3 className="text-3xl font-bold text-cyan-300">
-              Data Analytics Internship
-            </h3>
-
-            <p className="mt-2 text-lg">
-              NAVODITA INFOTECH
-            </p>
-
-            <p className="text-gray-300">
-              June 2026
-            </p>
-
-            <p className="mt-4 text-gray-300">
-              Performed customer segmentation, dashboard creation,
-              business analytics and insight generation.
-            </p>
-          </div>
-        </div>
+        ))}
 
       </div>
     </section>

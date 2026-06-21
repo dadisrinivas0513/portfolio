@@ -8,7 +8,7 @@ function Education() {
         Education
       </h2>
 
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         {/* B.Tech */}
 
@@ -24,7 +24,7 @@ bg-white/10
 backdrop-blur-xl
 border
 border-cyan-400/20
-p-6
+p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -33,7 +33,7 @@ transition-all
 duration-300
 "
           >
-            <h3 className="text-2xl font-bold text-blue-300">
+            <h3 className="text-3xl font-bold text-blue-300">
               B.Tech - Computer Science and Engineering
             </h3>
 
@@ -70,7 +70,7 @@ bg-white/10
 backdrop-blur-xl
 border
 border-cyan-400/20
-p-6
+p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -79,7 +79,7 @@ transition-all
 duration-300
 "
           >
-            <h3 className="text-2xl font-bold text-blue-300">
+            <h3 className="text-3xl font-bold text-blue-300">
               Intermediate (MPC)
             </h3>
 
@@ -114,7 +114,7 @@ bg-white/10
 backdrop-blur-xl
 border
 border-cyan-400/20
-p-6
+p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -123,7 +123,7 @@ transition-all
 duration-300
 "
           >
-            <h3 className="text-2xl font-bold text-blue-300">
+            <h3 className="text-3xl font-bold text-blue-300">
               Secondary School Education
             </h3>
 

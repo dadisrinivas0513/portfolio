@@ -6,7 +6,7 @@ function About() {
     >
       <div
         className="
-max-w-4xl
+max-w-5xl
 p-10
 rounded-3xl
 bg-white/20
@@ -24,13 +24,9 @@ duration-300
           About Me
         </h2>
 
-        <p className="text-lg leading-8 text-center">
+        <p className="text-xl leading-8 text-center">
           I am <span className="font-semibold text-blue-300">Srinivas Dadi</span>,
-          a Computer Science Engineering student with a CGPA of 8.46.
-          I am passionate about Data Analytics, Machine Learning,
-          Artificial Intelligence, and Full Stack Development.
-          I enjoy solving real-world problems through technology and
-          continuously learning new skills.
+          Computer Science Engineering student with a strong academic record (CGPA: 8.46) and a passion for Data Analytics, Machine Learning, Artificial Intelligence and Full Stack Development.
         </p>
       </div>
     </section>

@@ -8,10 +8,12 @@ import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
+import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div className="text-white relative overflow-hidden">
+    <div className="text-white relative overflow-hidden text-1g">
       <div className="fixed inset-0 -z-10 overflow-hidden">
 
   <div
@@ -59,12 +61,14 @@ function App() {
 </div>
       <Navbar />
       <Hero />
+      <Stats />
       <About />
       <Education />
+      <Certifications />
       <Skills />
       <Internships />
       <Projects />
-      <Certifications />
+      <Achievements />
       <Contact />
       <Footer />
     </div>

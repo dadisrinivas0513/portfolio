@@ -29,12 +29,17 @@ function Navbar() {
         </h1>
 
         <div className="flex gap-8 text-lg">
+
           <a href="#about" className="hover:text-cyan-400 transition">
             About
           </a>
 
           <a href="#education" className="hover:text-cyan-400 transition">
             Education
+          </a>
+
+          <a href="#certifications" className="hover:text-cyan-400 transition">
+            Certifications
           </a>
 
           <a href="#skills" className="hover:text-cyan-400 transition">
@@ -49,9 +54,31 @@ function Navbar() {
             Projects
           </a>
 
+          <a href="#achievements" className="hover:text-cyan-400 transition">
+            Achievements
+          </a>
+
           <a href="#contact" className="hover:text-cyan-400 transition">
             Contact
           </a>
+
+          <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+  px-4
+  py-2
+  rounded-xl
+  bg-cyan-600
+  hover:bg-cyan-500
+  transition-all
+  duration-300
+  "
+>
+  Resume
+</a>
+
         </div>
       </div>
     </nav>

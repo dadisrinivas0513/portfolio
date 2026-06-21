@@ -1,26 +1,20 @@
 function Footer() {
   return (
-    <footer
-      className="
-      mt-20
-      py-8
-      text-center
-      border-t
-      border-white/10
-      bg-black/20
-      backdrop-blur-xl
-      "
-    >
-      <h3 className="text-xl font-bold text-cyan-300">
+    <footer className="py-8 text-center border-t border-cyan-400/20 mt-10">
+      <h3 className="text-2xl font-bold text-cyan-400">
         Srinivas Dadi
       </h3>
 
-      <p className="mt-2 text-gray-300">
-        B.Tech CSE Student | Data Analytics | AI Enthusiast
+      <p className="mt-2 text-gray-400">
+        Data Analytics • Full Stack Development • Machine Learning
       </p>
 
-      <p className="mt-4 text-sm text-gray-400">
-        © 2026 Srinivas Dadi. Built with React, Tailwind CSS & Vite.
+      <p className="mt-4 text-gray-500 text-sm">
+        Built with React, Tailwind CSS and Vercel
+      </p>
+
+      <p className="mt-2 text-gray-500 text-sm">
+        © 2026 Srinivas Dadi. All Rights Reserved.
       </p>
     </footer>
   );
