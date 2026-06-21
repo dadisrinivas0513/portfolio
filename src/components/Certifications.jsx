@@ -1,46 +1,95 @@
 function Certifications() {
-  const certificates = [
-    {
-      title: "Data Entry Course",
-      organization: "Data Entry Organization",
-    },
-    {
-      title: "Data Analytics",
-      organization: "HP",
-    },
-    {
-      title: "Artificial Intelligence",
-      organization: "HP",
-    },
-  ];
+const certifications = [
+{
+title: "Deloitte Data Analytics Job Simulation",
+organization: "Deloitte | Forage",
+year: "2026",
+file: "/certificates/deloitte-data-analytics.pdf",
+},
+{
+title: "Artificial Intelligence for Everyone",
+organization: "Microsoft | Skill India",
+year: "2026",
+file: "/certificates/microsoft-ai.pdf",
+},
+{
+title: "Web Design & Development",
+organization: "NSDC | Skill India Digital Hub",
+year: "2026",
+file: "/certificates/nsdc-web-development.pdf",
+},
+{
+title: "AI Workshop",
+organization: "Pantech e Learning Pvt. Ltd.",
+year: "2026",
+file: "/certificates/pantech-ai-workshop.pdf",
+},
+];
 
-  return (
-    <section
-      id="certifications"
-      className="px-10 py-20"
-    >
-      <h2 className="text-4xl font-bold mb-10">
-        Certifications
-      </h2>
+return ( <section id="certifications" className="px-6 py-20"> <h2 className="text-5xl font-extrabold text-center mb-16">
+Certifications </h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
-        {certificates.map((cert, index) => (
-          <div
-            key={index}
-            className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-xl"
-          >
-            <h3 className="text-xl font-semibold">
-              {cert.title}
-            </h3>
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+    {certifications.map((cert, index) => (
+      <div
+        key={index}
+        className="
+        bg-white/10
+        backdrop-blur-xl
+        border border-cyan-400/20
+        rounded-3xl
+        p-6
+        shadow-xl
+        shadow-cyan-500/10
+        hover:scale-105
+        hover:border-cyan-400
+        transition-all
+        duration-300
+        "
+      >
+        <h3 className="text-2xl font-bold text-cyan-300">
+          {cert.title}
+        </h3>
 
-            <p className="mt-2 text-gray-300">
-              {cert.organization}
-            </p>
-          </div>
-        ))}
+        <p className="mt-3">
+          {cert.organization}
+        </p>
+
+        <p className="text-gray-400 mt-2">
+          {cert.year}
+        </p>
+
+        <a
+          href={cert.file}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+          inline-block
+          mt-5
+          px-5
+          py-2
+          rounded-xl
+          bg-cyan-500
+          text-white
+          font-semibold
+          border
+          border-cyan-300
+          shadow-lg
+          shadow-cyan-500/30
+          hover:bg-cyan-400
+          hover:scale-105
+          transition-all
+          duration-300
+          "
+        >
+          📜 View Certificate
+        </a>
       </div>
-    </section>
-  );
+    ))}
+  </div>
+</section>
+
+);
 }
 
 export default Certifications;
