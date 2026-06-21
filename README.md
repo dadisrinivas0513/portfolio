@@ -1,16 +1,137 @@
-# React + Vite
+# 🚀 Srinivas Dadi - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Portfolio
 
-Currently, two official plugins are available:
+🔗 https://portfolio-sooty-nine-dtv0gf3rt3.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👨‍💻 About Me
 
-## React Compiler
+B.Tech Computer Science Engineering student passionate about:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Data Analytics
+* Artificial Intelligence
+* Machine Learning
+* Cloud Computing
+* Full Stack Development
 
-## Expanding the ESLint configuration
+Focused on building scalable solutions and solving real-world problems through technology.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+* Java
+* Python
+* JavaScript
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* HTML5
+* CSS3
+
+### Backend
+
+* Node.js
+
+### Database
+
+* MySQL
+
+### Data Analytics & ML
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Jupyter Notebook
+* Power BI
+
+---
+
+## 📂 Featured Projects
+
+### 1. Customer Segmentation Analysis
+
+Machine Learning based customer segmentation system using K-Means Clustering to identify customer groups based on income and spending behavior.
+
+#### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* K-Means Clustering
+
+#### Concepts Applied
+
+* Data Collection
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Customer Segmentation
+* Business Insights
+
+---
+
+### 2. Personal Portfolio Website
+
+Designed and developed a responsive personal portfolio website to showcase projects, certifications, internships and technical skills.
+
+#### Technologies Used
+
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript
+* Git
+* GitHub
+* Vercel
+
+#### Features
+
+* Responsive Design
+* Animated Hero Section
+* Skills Showcase
+* Certifications Section
+* Internship Experience
+* Project Gallery
+* Resume Download
+
+---
+
+## 🎓 Certifications
+
+* Deloitte Data Analytics Job Simulation
+* Artificial Intelligence for Everyone (Microsoft)
+* Web Design & Development (NSDC)
+* Data Science Master Class (Pantech e Learning)
+
+---
+
+## 📫 Connect With Me
+
+### LinkedIn
+
+[www.linkedin.com/in/dadi-srinivas-05m032005](http://www.linkedin.com/in/dadi-srinivas-05m032005)
+
+### GitHub
+
+https://github.com/dadisrinivas0513
+
+---
+
+⭐ If you like this portfolio, feel free to star the repository.
