@@ -25,7 +25,7 @@ function Navbar() {
         "
       >
         <h1 className="text-2xl font-bold text-cyan-400">
-          Srinivas
+          Dadi Srinivas
         </h1>
 
         <div className="flex gap-8 text-lg">
@@ -75,8 +75,20 @@ function Navbar() {
   transition-all
   duration-300
   "
+  ></a>
+  <a
+ href="/resume.pdf"
+ target="_blank"
+ rel="noopener noreferrer"
+ className="
+ px-4 py-2
+ rounded-lg
+ bg-cyan-500
+ text-black
+ font-semibold
+ "
 >
-  Resume
+ Resume
 </a>
 
         </div>

@@ -23,7 +23,7 @@ function Hero() {
 
       <h1 className="text-7xl font-extrabold mt-4 tracking-wide">
         <span className="text-cyan-400">
-          Srinivas Dadi 👨‍💻
+          Srinivas Dadi 
         </span>
       </h1>
 
