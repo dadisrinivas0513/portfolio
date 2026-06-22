@@ -5,7 +5,10 @@ const learning = [
 "Data Structures & Algorithms",
 "AWS Cloud Services",
 "Generative AI",
-"System Design"
+"System Design",
+"Full Stack Development",
+"Prompt Engineering",
+"HTML",
 ];
 
 return ( <section className="px-6 py-20"> <h2 className="text-5xl font-extrabold text-center mb-16">

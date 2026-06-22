@@ -2,36 +2,36 @@ function Navbar() {
   return (
     <nav
       className="
-px-4
-py-1
-rounded-x1
+px-12
+py-2
+rounded-xl
 bg-gradient-to-r
-from-cyan-500
+from-cyan-900
 to-blue-900
 font-semibold
-hover:scale-105
+hover:scale-101
 transition-all
 duration-300
-shadow-lg
-shadow-cyan-500/20
+shadow-1g
+shadow-cyan-20/20
 "
     >
       <div
         className="
-        max-w-7xl
+        max-w-8xl
         mx-auto
-        px-8
-        py-5
+        px-4
+        py-6
         flex
         justify-between
         items-center
         "
       >
-        <h1 className="text-3xl font-bold text-cyan-400">
+        <h1 className="text-3xl font-bold text-cyan-200">
           Dadi Srinivas
         </h1>
 
-        <div className="flex gap-8 text-lg">
+        <div className="flex gap-5 text-lg">
 
   <a href="#about" className="hover:text-cyan-400 transition">
     About
@@ -70,18 +70,18 @@ shadow-cyan-500/20
     target="_blank"
     rel="noopener noreferrer"
     className="
-px-4
-py-2
+px-5
+py-1
 rounded-xl
 bg-gradient-to-r
 from-cyan-500
-to-blue-600
+to-violet-600
 font-semibold
-hover:scale-105
+hover:scale-106
 transition-all
 duration-300
 shadow-lg
-shadow-cyan-500/20
+shadow-cyan-1000/50
 "
   >
     Resume

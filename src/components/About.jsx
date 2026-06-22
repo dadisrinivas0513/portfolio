@@ -25,7 +25,7 @@ duration-300
         </h2>
 
         <p className="text-xl leading-8 text-center">
-          I am <span className="font-semibold text-blue-300">Srinivas Dadi</span>,
+          I am <span className="font-semibold text-green-400">Srinivas Dadi</span>,
           Computer Science Engineering student with a strong academic record (CGPA: 8.46) and a passion for Data Analytics, Machine Learning, Artificial Intelligence and Full Stack Development.
         </p>
       </div>

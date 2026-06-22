@@ -2,13 +2,13 @@ function Education() {
   return (
     <section
       id="education"
-      className="px-6 py-20"
+      className="px-8 py-20"
     >
-      <h2 className="text-4xl font-bold text-center mb-16">
+      <h2 className="text-5xl font-bold text-center mb-13">
         Education
       </h2>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-8xl mx-2-auto">
 
         {/* B.Tech */}
 
@@ -23,8 +23,8 @@ function Education() {
 bg-white/10
 backdrop-blur-xl
 border
-border-cyan-400/20
-p-8
+border-cyan-200/40
+p-7
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -46,12 +46,12 @@ duration-300
               Visakhapatnam
             </p>
 
-            <p className="mt-2">
-              2023 - 2027 (Pursuing)
+            <p className="mt-1">
+              Batch: 2023 - 2027 (Pursuing)
             </p>
 
             <p>
-              CGPA: 8.46 / 10
+              CGPA: 8.46 / 10 (Up to 6th Semester)
             </p>
           </div>
         </div>
@@ -69,8 +69,8 @@ duration-300
 bg-white/10
 backdrop-blur-xl
 border
-border-cyan-400/20
-p-8
+border-cyan-200/40
+p-7
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -80,19 +80,19 @@ duration-300
 "
           >
             <h3 className="text-3xl font-bold text-blue-300">
-              Intermediate (MPC)
+              Intermediate (Maths, Physics & Chemistry)
             </h3>
 
             <p>
-              Sri Chaitanya Junior College
+              Sri Chaitanya Junior College, NAD
             </p>
 
             <p>
-              Board of Intermediate Education Andhra Pradesh
+              Board of Intermediate Education Andhra Pradesh (BIEAP)
             </p>
 
             <p>
-              2021 - 2023
+              Batch: 2021 - 2023
             </p>
 
             <p>
@@ -103,7 +103,7 @@ duration-300
 
         {/* SSC */}
 
-        <div className="flex">
+        <div className="flex mb-12">
           <div className="flex flex-col items-center mr-6">
             <div className="w-5 h-5 bg-blue-500 rounded-full"></div>
           </div>
@@ -113,8 +113,8 @@ duration-300
 bg-white/10
 backdrop-blur-xl
 border
-border-cyan-400/20
-p-8
+border-cyan-200/40
+p-7
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
@@ -124,15 +124,15 @@ duration-300
 "
           >
             <h3 className="text-3xl font-bold text-blue-300">
-              Secondary School Education
+              Board of Secondary School Education (SSC)
             </h3>
 
             <p>
-              SSS Oxford High School
+              SSS Oxford High School, Pendurthi
             </p>
 
             <p>
-              Pendurthi, Visakhapatnam
+              Visakhapatnam, Andhra Pradesh
             </p>
 
             <p>

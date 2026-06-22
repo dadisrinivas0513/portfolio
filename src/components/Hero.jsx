@@ -15,7 +15,7 @@ function Hero() {
         border-4
         border-blue-500
         shadow-2xl
-        hover:scale-105
+        hover:-translate-y-2 hover:scale-105
         transition-all
         duration-300
         float-animation
@@ -28,7 +28,7 @@ function Hero() {
         </span>
       </h1>
 
-      <p className="text-cyan-300 text-xl mt-5 font-semibold">
+      <p className="text-cyan-100 text-xl mt-5 font-semibold">
         Aspiring Software Engineer | Data Analytics Enthusiast | Full Stack Developer
       </p>
 
@@ -92,7 +92,7 @@ function Hero() {
           bg-gradient-to-r
           from-blue-600
           to-indigo-700
-          hover:scale-105
+          hover:-translate-y-2 hover:scale-105
           transition-all
           duration-300
           shadow-xl
@@ -110,8 +110,10 @@ function Hero() {
           border
           border-cyan-400
           hover:bg-cyan-500/20
+          hover:shadow-cyan-500/20
           transition-all
           duration-300
+          shadow-x1
           "
         >
           View Projects
@@ -162,7 +164,7 @@ function Hero() {
 
       {/* Availability Status */}
       <div className="mt-6 text-cyan-300 font-semibold text-lg">
-        🚀 Available for Internships • Open to Opportunities
+        🚀 Available for Internships • Open to Opportunities • Aspire Software Developer
       </div>
 
     </section>
