@@ -18,6 +18,7 @@ function Hero() {
         hover:scale-105
         transition-all
         duration-300
+        float-animation
         "
       />
 

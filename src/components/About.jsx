@@ -15,7 +15,7 @@ border
 border-cyan-400/30
 shadow-2xl
 shadow-cyan-500/20
-hover:scale-105
+hover:-translate-y-2 hover:scale-105
 transition-all
 duration-300
 "

@@ -11,6 +11,12 @@ import Footer from "./components/Footer";
 import Achievements from "./components/Achievements";
 import Stats from "./components/Stats";
 import GitHubStats from "./components/GitHubStats";
+import CallToAction from "./components/CallToAction";
+import WhyHireMe from "./components/WhyHireMe";
+import FeaturedProject from "./components/FeaturedProject";
+import Journey from "./components/Journey";
+import Strengths from "./components/Strengths";
+import CurrentlyLearning from "./components/CurrentlyLearning";
 
 function App() {
   return (
@@ -66,13 +72,20 @@ function App() {
       <Stats />
       <About />
       <Education />
+      <Journey />
       <Certifications />
       <Skills />
       <Internships />
+      <FeaturedProject />
       <Projects />
+      <WhyHireMe />
+      <Strengths />
+      <CurrentlyLearning />
       <Achievements />
+      <CallToAction />
       <Contact />
       <Footer />
+
     </div>
   );
 }

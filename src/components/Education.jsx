@@ -28,7 +28,7 @@ p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
-hover:scale-105
+hover:-translate-y-2 hover:scale-105
 transition-all
 duration-300
 "
@@ -74,7 +74,7 @@ p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
-hover:scale-105
+hover:-translate-y-2 hover:scale-105
 transition-all
 duration-300
 "
@@ -118,7 +118,7 @@ p-8
 rounded-2xl
 shadow-xl
 shadow-cyan-500/10
-hover:scale-105
+hover:-translate-y-2 hover:scale-105
 transition-all
 duration-300
 "

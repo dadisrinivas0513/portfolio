@@ -40,7 +40,7 @@ function Achievements() {
             p-8
             shadow-xl
             shadow-cyan-500/10
-            hover:scale-105
+            hover:-translate-y-2 hover:scale-105
             hover:border-cyan-400
             transition-all
             duration-300

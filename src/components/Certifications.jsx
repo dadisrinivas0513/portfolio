@@ -41,8 +41,10 @@ Certifications </h2>
         p-6
         shadow-xl
         shadow-cyan-500/10
-        hover:scale-105
+        hover:-translate-y-2 hover:scale-105
         hover:border-cyan-400
+        hover:-translate-y-2
+        hover:shadow-cyan-500/30
         transition-all
         duration-300
         "
@@ -77,8 +79,10 @@ Certifications </h2>
           shadow-lg
           shadow-cyan-500/30
           hover:bg-cyan-400
-          hover:scale-105
+          hover:-translate-y-2 hover:scale-105
           transition-all
+          hover:-translate-y-2
+          hover:shadow-cyan-500/30
           duration-300
           "
         >
