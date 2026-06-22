@@ -14,7 +14,6 @@ import GitHubStats from "./components/GitHubStats";
 import CallToAction from "./components/CallToAction";
 import WhyHireMe from "./components/WhyHireMe";
 import FeaturedProject from "./components/FeaturedProject";
-import Journey from "./components/Journey";
 import Strengths from "./components/Strengths";
 import CurrentlyLearning from "./components/CurrentlyLearning";
 
@@ -72,7 +71,6 @@ function App() {
       <Stats />
       <About />
       <Education />
-      <Journey />
       <Certifications />
       <Skills />
       <Internships />
