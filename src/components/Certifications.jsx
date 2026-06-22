@@ -22,7 +22,7 @@ file: "/certificates/nsdc-web-development.pdf",
 title: "AI Workshop",
 organization: "Pantech e Learning Pvt. Ltd.",
 year: "2026",
-file: "/certificates/pantech-ai-workshop.pdf",
+file: "/Certificates/pantech-ai-workshop.pdf",
 },
 ];
 
@@ -87,7 +87,7 @@ Certifications </h2>
       </div>
     ))}
   </div>
-</section>
+</ section>
 
 );
 }

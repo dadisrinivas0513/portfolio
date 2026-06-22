@@ -74,8 +74,7 @@ function Navbar() {
   hover:bg-cyan-500
   transition-all
   duration-300
-  "
-  ></a>
+  "></a>
   <a
  href="/resume.pdf"
  target="_blank"

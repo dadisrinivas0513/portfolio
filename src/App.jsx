@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Achievements from "./components/Achievements";
 import Stats from "./components/Stats";
+import GitHubStats from "./components/GitHubStats";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
 </div>
       <Navbar />
       <Hero />
+      <GitHubStats />
       <Stats />
       <About />
       <Education />
