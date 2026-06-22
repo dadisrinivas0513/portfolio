@@ -15,7 +15,7 @@ function Skills() {
 const skillCategories = [
 {
 title: "Programming Languages",
-skills: ["Python", "Java", "JavaScript"],
+skills: ["C", "Python", "Java", "JavaScript"],
 },
 
 {
@@ -30,7 +30,7 @@ skills: ["Python", "Java", "JavaScript"],
 
 {
   title: "Tools & Platforms",
-  skills: ["Git", "GitHub", "MySQL"],
+  skills: ["Git", "GitHub", "MySQL", "Microsoft Excel", "Microsoft Office"],
 },
 
 ];
@@ -49,7 +49,7 @@ Skills </h2>
         rounded-3xl
         p-8
         hover:border-cyan-400
-        hover:scale-105
+        hover:-translate-y-2 hover:scale-105
         transition-all
         duration-300
         "

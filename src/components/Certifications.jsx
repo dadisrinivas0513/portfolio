@@ -24,6 +24,19 @@ organization: "Pantech e Learning Pvt. Ltd.",
 year: "2026",
 file: "/Certificates/pantech-ai-workshop.pdf",
 },
+{
+title: "Data Science for Everyone",
+organization: "NSDC | Skill India Digital Hub",
+year: "April 08,2026",
+Duration: "120 Hours",
+file: "/Certificates/data-science-for-everyone.pdf",
+},
+{
+title: "Generative AI",
+organization: "LinkedIn e Learning",
+year: "July 07,2025",
+file: "/Certificates/generative-ai.pdf",
+},
 ];
 
 return ( <section id="certifications" className="px-6 py-20"> <h2 className="text-5xl font-extrabold text-center mb-16">
