@@ -42,7 +42,7 @@ function Strengths() {
             backdrop-blur-xl
             border border-cyan-400/20
             hover:border-cyan-400
-            hover:scale-105
+            hover:-translate-y-2 hover:scale-105
             transition-all
             duration-300
             "

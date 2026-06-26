@@ -92,7 +92,7 @@ Professional Experience </h2>
           border
           border-cyan-400/20
           shadow-xl
-          hover:scale-105
+          hover:-translate-y-2 hover:scale-105
           hover:border-cyan-400
           transition-all
           duration-300
